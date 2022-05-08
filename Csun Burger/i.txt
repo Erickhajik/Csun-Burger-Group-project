@@ -1,0 +1,93 @@
+For the website, I was thinking we have multiple pages 
+(kinda like project one), with one page being a home page 
+(could have bs like company values, backstory/history, etc.),
+an order/menu page, a checkout/cart page, and then maybe like a 
+contact page that has location address, phone, email, operation 
+hours, etc.
+Also does anyone have any ideas for what food to do? I was 
+thinking maybe burgers kinda like an in-n-out or five guys maybe.
+We could have like four or so different types of burgers. 
+We could then have like 3 or 4 sides such as fries, onion rings,
+etc. Then we could also have a drinks section with soda, 
+milkshakes, etc.
+
+
+
+I finished the career stuff,cant send file ,we have to pay for it
+
+
+
+
+COLOR PALETTE:
+https://coolors.co/palettes/trending/restaurant
+
+INSPO:
+http://greatwhitehut.com/
+https://hookburger.com/
+https://www.habitburger.com/
+
+
+
+shopping cart add button
+<i class="fas fa-cart-plus"></i>
+
+
+slogan ideas for home-page banner
+https://foodtruckempire.com/restaurant/burger-slogans/
+
+terms of conditions
+>https://app.termly.io/dashboard/
+
+IDEAS:
+- joining mailing list banner
+- tos page, priv, access,careers page
+=>https://originaltommys.com/careers/
+=>https://originaltommys.com/terms/
+
+- an instagram grid
+
+
+
+
+
+REMOVED CODE (might be useful later):
+>>>>> VERSIOn 1 NAV BAR
+<!--
+      <nav class="navigation bg-dark"> 
+        <ul class="nav justify-content-center">    
+          <li class="nav-item"><a class="nav-link" href="index.html" title="Home" style="color: white;">Home</a> </li>     
+          <li class="nav-item"><a  class="nav-link" href="MenuPage.html" title="Menu" style="color: white;">Menu</a></li>      
+          <li class="nav-item"><a  class="nav-link" href="ContactPage.html" title="Contact Us" style="color: white;">Contact Us</a></li>       
+          <li class="nav-item"><a  class="nav-link" href="CheckoutPage.html" title="Check Out" style="color: white;"><i class="fas fa-shopping-cart"></i></a> </li>
+        </ul>
+      </nav> 
+-->
+>>> VERSION 1 FOOTER
+<!--
+      <footer class="flex-shrink-0 py-4 bg-dark text-white-50"> 
+      <div class="container text-center">    
+        <small>&copy;2021 CSUN Burger, All Rights Reserved.</small>  
+      </div>  
+      <div class="container text-center">   
+        <a href="https://www.yelp.com" target="_blank" style="color: red"><i class="fab fa-yelp"></i></a>   
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>   
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>        
+        <a href="https://www.instagram.com" target="_blank" style="color: white"> <i class="fab fa-instagram"></i></a>  
+      </div>
+    </footer> 
+-->
+
+>>> VERSION 2 NAV BAR
+<nav> 
+      <div class="nav-img">
+        <a href="index.html"> <img id="nav-logo" src="https://cdn.glitch.me/dea4e612-30de-4cea-b227-75f53191de9f%2Flogo.png?v=1638405722816"></a>
+      </div>
+      <div class="nav-links">
+        <ul>     
+        <li><a href="index.html" title="Home">Home</a> </li>     
+        <li><a href="MenuPage.html" style="color:#ffba07;" title="Menu" >Menu</a></li>         
+        <li><a href="ContactPage.html" title="Contact Us">Contact Us</a></li>            
+        <li><a href="CheckoutPage.html" title="Check Out"><i class="fas fa-shopping-cart"></i></a> </li>        
+      </ul>     
+      </div>
+    </nav>
